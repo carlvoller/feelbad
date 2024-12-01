@@ -1,0 +1,13 @@
+[package]
+name = "feelbad"
+version = "0.1.0"
+authors = ["Carl Voller <carl@carlvoller.is>"]
+edition = "2021"
+
+[dependencies]
+libc = "0.2.167"
+redhook = "2.0"
+
+[lib]
+name = "feelbad"
+crate_type = ["dylib"]
